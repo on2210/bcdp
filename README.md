@@ -2,7 +2,7 @@
 
 A mechanistic interpretability pipeline for discovering **binding circuits in transformer language models**.
 
-Binding — the ability to associate entities with roles, attributes, or relations — is a fundamental cognitive operation required for structured reasoning and language understanding.
+Binding, the ability to associate entities with roles, attributes, or relations, is a fundamental cognitive operation required for structured reasoning and language understanding.
 
 Recent interpretability work suggests that binding information is represented in **low-dimensional subspaces of the residual stream**, but we still lack a systematic way to identify **which components create, update, and use these representations**.
 
