@@ -26,7 +26,7 @@ The **Binding Circuit Discovery Pipeline (BCDP)** is a unified pipeline designed
                                │
                                ▼
             ┌──────────────────────────────────────┐
-            │        Subspace Discovery             │
+            │        Subspace Discovery            │
             │  diff-means / DBCM / PCA / DAS       │
             │  → binding-relevant residual space   │
             └───────────────┬──────────────────────┘
@@ -34,23 +34,23 @@ The **Binding Circuit Discovery Pipeline (BCDP)** is a unified pipeline designed
              ┌──────────────┴──────────────┐
              ▼                             ▼
 
-   ┌──────────────────────┐      ┌────────────────────────┐
-   │  Attention Analysis  │      │    MLP Writer Analysis │
-   │                      │      │                        │
-   │ Rank heads by how   │      │ Project MLP weights    │
-   │ much they route     │      │ onto binding subspace  │
+   ┌─────────────────────┐      ┌────────────────────────┐
+   │  Attention Analysis │      │   MLP Writer Analysis  │
+   │                     │      │                        │
+   │ Rank heads by how   │      │  Project MLP weights   │
+   │ much they route     │      │  onto binding subspace │
    │ information into S  │      │                        │
    └───────────┬─────────┘      └──────────────┬─────────┘
-               │                                │
-               └──────────────┬─────────────────┘
+               │                               │
+               └──────────────┬────────────────┘
                               ▼
 
-                ┌─────────────────────────────┐
-                │   Binding Circuit Model     │
-                │                             │
-                │   Subspace  ←→  Heads  ←→  MLPs
-                │                             │
-                └──────────────┬──────────────┘
+                ┌──────────────────────────────────┐
+                │      Binding Circuit Model       │
+                │                                  │
+                │   Subspace  ←→  Heads  ←→  MLPs  |
+                │                                  │
+                └──────────────┬───────────────────┘
                                │
                                ▼
 
