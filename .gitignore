@@ -1,0 +1,22 @@
+# python
+__pycache__/
+*.pyc
+
+# experiments
+runs/
+outputs/
+logs/
+
+# data
+data/
+datasets/
+
+# HF cache
+*.pt
+*.bin
+*.ckpt
+*.safetensors
+
+# environment
+.env
+.venv

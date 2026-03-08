@@ -1,0 +1,39 @@
+DEBUG: token_file=/a/home/cc/students/csguests/omernaziri1/.huggingface/token
+DEBUG: token_len=37
+DEBUG: HF_HOME=/tmp/omernaziri1/hf_cache
+PY_DEBUG: token_present True len 37
+PY_DEBUG: whoami {'type': 'user', 'id': '6776b173ce84c1ccd29415ab', 'name': 'on2210', 'fullname': 'omer naziri', 'email': 'omernaziri1@mail.tau.ac.il', 'emailVerified': True, 'canPay': False, 'billingMode': 'prepaid', 'periodEnd': 1772323200, 'isPro': False, 'avatarUrl': 'https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/9Cea6vX8VxXaAd-rj-BBG.png', 'orgs': [], 'auth': {'type': 'access_token', 'accessToken': {'displayName': 'token2210', 'role': 'read', 'createdAt': '2025-01-02T15:33:17.788Z'}}}
+Loading toy model: EleutherAI/pythia-160m-deduped on cuda
+Testing site=Site(layer=9, stream=<Stream.RESID_POST: 3>, position=<Position.LAST: 4>, index=None)
+Training DBCM (toy) ...
+[DBCM] step=0000 loss=-775.4800 mask_sum=247.24
+[DBCM] step=0020 loss=-776.4383 mask_sum=151.39
+[DBCM] step=0040 loss=-777.3984 mask_sum=55.35
+[DBCM] step=0060 loss=-777.8828 mask_sum=11.72
+[DBCM] step=0080 loss=-777.8840 mask_sum=11.60
+[DBCM] step=0100 loss=-777.8833 mask_sum=11.68
+[DBCM] step=0120 loss=-777.8823 mask_sum=11.77
+[DBCM] step=0140 loss=-777.8827 mask_sum=11.73
+[DBCM] step=0160 loss=-777.8829 mask_sum=11.70
+[DBCM] step=0180 loss=-777.8839 mask_sum=11.60
+[DBCM] step=0200 loss=-777.8843 mask_sum=11.57
+[DBCM] step=0220 loss=-777.8845 mask_sum=11.55
+[DBCM] step=0240 loss=-777.8840 mask_sum=11.61
+[DBCM] step=0260 loss=-777.8840 mask_sum=11.60
+[DBCM] step=0280 loss=-777.8835 mask_sum=11.65
+[DBCM] step=0300 loss=-777.8841 mask_sum=11.59
+[DBCM] step=0320 loss=-777.8842 mask_sum=11.58
+[DBCM] step=0340 loss=-777.8836 mask_sum=11.64
+[DBCM] step=0360 loss=-777.8837 mask_sum=11.64
+[DBCM] step=0380 loss=-777.8835 mask_sum=11.65
+[DBCM] step=0400 loss=-777.8841 mask_sum=11.59
+[DBCM] step=0420 loss=-777.8839 mask_sum=11.61
+[DBCM] step=0440 loss=-777.8827 mask_sum=11.74
+[DBCM] step=0460 loss=-777.8823 mask_sum=11.77
+[DBCM] step=0480 loss=-777.8828 mask_sum=11.72
+
+=== Toy DBCM sanity ===
+mask_sum (binary): 12.0
+basis shape: (768, 12)
+projection shape: (768, 768)
+DONE ✅ (toy functional test passed)

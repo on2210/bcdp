@@ -1,0 +1,40 @@
+DEBUG: token_file=/a/home/cc/students/csguests/omernaziri1/.huggingface/token
+DEBUG: token_len=37
+DEBUG: HF_HOME=/tmp/omernaziri1/hf_cache
+PY_DEBUG: token_present True len 37
+PY_DEBUG: whoami {'type': 'user', 'id': '6776b173ce84c1ccd29415ab', 'name': 'on2210', 'fullname': 'omer naziri', 'email': 'omernaziri1@mail.tau.ac.il', 'emailVerified': True, 'canPay': False, 'billingMode': 'prepaid', 'periodEnd': 1772323200, 'isPro': False, 'avatarUrl': 'https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/9Cea6vX8VxXaAd-rj-BBG.png', 'orgs': [], 'auth': {'type': 'access_token', 'accessToken': {'displayName': 'token2210', 'role': 'read', 'createdAt': '2025-01-02T15:33:17.788Z'}}}
+loop begins
+layer 0 exists
+layer 1 exists
+layer 2 exists
+layer 3 exists
+layer 4 exists
+layer 5 exists
+layer 6 exists
+layer 7 exists
+layer 8 exists
+layer 9 exists
+layer 10 exists
+layer 11 exists
+layer 12 exists
+layer 13 exists
+layer 14 exists
+layer 15 exists
+layer 16 exists
+layer 17 exists
+layer 18 exists
+layer 19 exists
+layer 20 exists
+layer 21 exists
+layer 22 exists
+layer 23 exists
+layer 24 does not exist
+[DBCM] step=0000 loss=-27.6220 mask_sum=126.54 near0=0.00 near1=0.00
+[DBCM] step=0050 loss=-28.0667 mask_sum=57.05 near0=0.47 near1=0.04
+[DONE] layer=24 k=48 necΔm=-0.182 necSR=0.049 sufΔdonAcc=-0.032 sufSR=0.475 headΔm=-2.156 headSR=0.000 writerΔm=+0.011 writerSR=0.000 stab=0.544
+layer 25 does not exist
+[DBCM] step=0000 loss=-26.1220 mask_sum=127.32 near0=0.00 near1=0.00
+[DBCM] step=0050 loss=-28.3987 mask_sum=100.78 near0=0.05 near1=0.00
+[DONE] layer=25 k=95 necΔm=-0.444 necSR=0.079 sufΔdonAcc=+0.046 sufSR=0.553 headΔm=-8.866 headSR=0.000 writerΔm=+0.058 writerSR=0.000 stab=0.487
+[REPORT] wrote plots to: runs/google_gemma-2-2b/main_0/plots
+[SUMMARY] {'best_layer_by_sufficiency_delta_donor_acc': 13, 'best_layer_by_necessity_delta_margin': 22, 'run_dir': 'runs/google_gemma-2-2b/main_0'}
